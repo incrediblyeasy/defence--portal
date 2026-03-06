@@ -75,6 +75,8 @@ transform:translateY(-6px);
 margin-bottom:10px;
 }
 
+
+
 </style>
 
 </head>
@@ -109,6 +111,19 @@ font-weight:bold;
 
 <div class="dashboard-cards">
 
+ 
+<div class="card">
+<h3>📄 Defence Technology Brochure</h3>
+<p>Download the programme brochure</p>
+
+<a href="{{ url_for('static', filename='brochures/MTech_DT_Brochure.pdf') }}" 
+target="_blank"
+style="background:#1f2a40;color:white;padding:8px 15px;text-decoration:none;border-radius:5px;">
+View Brochure
+</a>
+
+</div>   
+
 <div class="card">
 <h3>📘 Course</h3>
 <p>M.Tech Defence Technology</p>
@@ -133,17 +148,8 @@ font-weight:bold;
 <p>Semester Results</p>
 </div>
 
-<div class="card">
-<h3>🚀 Activities</h3>
-<p>Seminars</p>
-<p>Workshops</p>
-</div>
 
-<div class="card">
-<h3>🛰 Research</h3>
-<p>Missile Technology</p>
-<p>Radar Systems</p>
-</div>
+
 
 </div>
 
