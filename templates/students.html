@@ -1,60 +1,112 @@
-<h2>Student List</h2>
+<!DOCTYPE html>
+<html>
 
-<table border="1" style="border-collapse:collapse; width:90%;">
+<head>
 
-<tr style="background:#d9d9d9;">
-<th>Name</th>
-<th>Course</th>
-</tr>
+<title>Students - Defence Technology</title>
 
-<tr>
-<td>Abhishek Gopakumar Nair</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+<link rel="stylesheet" href="/static/style.css">
 
-<tr>
-<td>Ayushi Chahare</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+<style>
 
-<tr>
-<td>Omkari Gautam Ghatge</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+body{
+font-family:Arial;
+background:#f4f6fa;
+}
 
-<tr>
-<td>Purva Suryakant Deshmukh</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+.header{
+background:#1f2a40;
+color:white;
+text-align:center;
+padding:25px;
+}
 
-<tr>
-<td>Sakshi Vilas Dupare</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+.header h1{
+margin:0;
+}
 
-<tr>
-<td>Sheeza Khan</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+.batch{
+text-align:center;
+margin:20px;
+font-size:18px;
+font-weight:bold;
+color:#1f2a40;
+}
 
-<tr>
-<td>Vitthal Shamrao Savle</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+.students-container{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:40px;
+}
 
-<tr>
-<td>Shivam Arvindkumar Nigam</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+.student-card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+text-align:center;
+transition:0.3s;
+}
 
-<tr>
-<td>Shruti Ajay Bhavsar</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+.student-card:hover{
+transform:translateY(-5px);
+}
 
-<tr>
-<td>Tejas Ravindra Chudmunge</td>
-<td>M.Tech Defence Technology</td>
-</tr>
+.student-card h3{
+margin:5px 0;
+}
 
-</table>
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+
+<h1>M.Tech Defence Technology Students</h1>
+
+</div>
+
+<div class="batch">
+
+Batch: 2025 – 2027
+
+</div>
+
+<div class="students-container">
+
+<div class="student-card"><h3>Abhishek Gopakumar Nair</h3></div>
+
+<div class="student-card"><h3>Ayushi Chahare</h3></div>
+
+<div class="student-card"><h3>Omkari Gautam Ghatge</h3></div>
+
+<div class="student-card"><h3>Purva Suryakant Deshmukh</h3></div>
+
+<div class="student-card"><h3>Sakshi Vilas Dupare</h3></div>
+
+<div class="student-card"><h3>Sheeza Kham</h3></div>
+
+<div class="student-card"><h3>Vitthal Shamrao Savle</h3></div>
+
+<div class="student-card"><h3>Shivam Arvindkumar Nigam</h3></div>
+
+<div class="student-card"><h3>Shruti Ajay Bhavsar</h3></div>
+
+<div class="student-card"><h3>Tejas Ravindra Chudmunge</h3></div>
+
+<div class="student-card"><h3>Tumma Muralikrishna Raju</h3></div>
+
+<div class="student-card"><h3>Vighnesh S Iyer</h3></div>
+
+<div class="student-card"><h3>Hariom Vitthal Kharsade</h3></div>
+
+<div class="student-card"><h3>Prasad Dattatrey Mohane</h3></div>
+
+</div>
+
+</body>
+
+</html>
